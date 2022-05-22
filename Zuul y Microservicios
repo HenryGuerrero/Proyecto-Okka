@@ -1,0 +1,23 @@
+Puerta de entrada a los Microservicios
+Configuración de Zuul
+  "Crear un componente para Zuul API Gateway"
+  "Decidir las cosas que debe hacer Zuul API Gateway"
+  "Todas las solicitudes importantes están configuradas para pasar a través de Zuul API Gateway"
+Despues de colocar el Nombre de Proyecto, el lenguaje que se utilizará y el Metadata elegimos las dependencias:
+  "Zuul, Eureka Discovery, Actuator y DevTools."
+Abrimos el proyecto y las propiedades para configurar el puerto y el servidor de nomenclatura eureka
+  "spring.application.name=oka-zuul-api-gateway-server
+    servidor.puerto=8765
+    eureka.client.service-url. default-zone=http://localhost:8765/eureka"
+ 
+ Entramos a los microservicios
+ Dividiremos la aplicaicon Monolitica en microservicios
+ Asi se ejecutan como un solo servicio cada parte de la aplicación 
+ Lo pondremos en recipientes llamados
+   "Base de datos"
+ Configuraremos y manejaremos la base de datos en la nube con: 
+   "MySQL"
+ Servicios de red de alto rendimiento que se utilizará en los microservicos
+   "Detección de Servicios.'
+   "Red de Servicios"
+   "Balanceador de carga de Aplicaciones'
