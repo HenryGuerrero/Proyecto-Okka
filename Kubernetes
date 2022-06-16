@@ -1,9 +1,0 @@
-Implementaremos la primera aplicación en Kubernetes
-Especificaremos un Pod (Unidad minima de computación de Kubernetes)
-Los recuersos que consumiran serán CPU y Memory RAM
-Limite de Memoria de contenedor de:
- "256 Mib" 
- Pod 1 colocado en un nodo de:
-  "8 Gib"
- Pod 2 colocado en un nodo de:
-  "4 Gib"
