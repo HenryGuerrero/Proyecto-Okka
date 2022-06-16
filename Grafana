@@ -1,8 +1,0 @@
-Nos conectaremos a Grafana:
-Para la configuración de HA, se utilizan IP virtuales de equilibrador de carga (LB) para conectar:
-  "https://<lbvip01>:9443/grafana"
-Para la configuración All in One, puede utilizar la IP de administración para conectarse:
-  "htttp://<ip>>:80/grafana"
-Ingresamos con el usario Admin
-Importaremos un panel exportado de otro entorno
-rearemos un DashBoard para el monitoreo, recopilación de las estadísticas del sistema y las aplicaciones de CPS, así como los indicadores de rendimiento clave.
